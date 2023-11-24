@@ -12,26 +12,26 @@ public class DetailsMetadataExtension : ModuleRules
 		// Disable for Non-Developer builds
 		//OptimizeCode = CodeOptimization.Never;
 
-        PrivateDependencyModuleNames.AddRange(
-	        new string[]
-	        {
-	        	"Core",
-                "CoreUObject",
-                "Slate",
-                "SlateCore",
-                "InputCore",
-                "Engine",
-                "UnrealEd",
-                "KismetCompiler",
-                "BlueprintGraph",
-                //"ControlRig",
-                //"ControlRigDeveloper",
-                "Kismet",
-                "EditorStyle",
-                "ApplicationCore",
-                "PropertyEditor",
-                "PropertyPath",
-	        }
-        );
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"Core",
+				"CoreUObject",
+				"Slate",
+				"SlateCore",
+				"InputCore",
+				"Engine",
+				"UnrealEd",
+				"KismetCompiler",
+				"BlueprintGraph",
+				//"ControlRig",
+				//"ControlRigDeveloper",
+				"Kismet",
+				"EditorStyle",
+				"ApplicationCore",
+				"PropertyEditor",
+				"PropertyPath",
+			}
+		);
 	}
 }

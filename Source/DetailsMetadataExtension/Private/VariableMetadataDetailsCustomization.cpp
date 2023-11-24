@@ -1,17 +1,17 @@
 ﻿// Copyright 2020-2023 Solar Storm Interactive
 
 #include "VariableMetadataDetailsCustomization.h"
-#include "Kismet2/BlueprintEditorUtils.h"
 //#include "ControlRig.h"
+#include "Editor/PropertyEditor/Public/PropertyCustomizationHelpers.h"
+#include "Kismet2/BlueprintEditorUtils.h"
+#include "Widgets/Input/SMultiLineEditableTextBox.h"
+#include "Widgets/Input/SEditableTextBox.h"
+#include "Widgets/Text/STextBlock.h"
+#include "Widgets/SBoxPanel.h"
 #include "DetailLayoutBuilder.h"
 #include "BlueprintEditorModule.h"
 #include "DetailCategoryBuilder.h"
 #include "DetailWidgetRow.h"
-#include "Widgets/Text/STextBlock.h"
-#include "SlateCore/Public/Widgets/SBoxPanel.h"
-#include "Editor/PropertyEditor/Public/PropertyCustomizationHelpers.h"
-#include "Widgets/Input/SMultiLineEditableTextBox.h"
-#include "Widgets/Input/SEditableTextBox.h"
 
 #define LOCTEXT_NAMESPACE "VariableMetadataDetailsCustomization"
 
